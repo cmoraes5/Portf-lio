@@ -12,6 +12,6 @@ O controle de tarefas desse projeto estásendo realizado no GitHub
 :beetle: correção de bug 
 :checkered_flag: release
 
-##Preview
+## Preview
 
 https://cmoraes5.github.io/Portfolio/
