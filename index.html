@@ -34,7 +34,7 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">
+                        <a href="#home" class="nav__link active-link">
                             <i class="uil uil-estate nav__icon"></i> Home
                         </a>
                     </li>
@@ -68,6 +68,9 @@
             </div>
 
             <div class="nav__btns">
+                <!-- mudar tema button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="uil uil-apps"></i>
                 </div>
@@ -87,11 +90,11 @@
                             </a>
 
                             <a href="https://github.com/cmoraes5" target="_blank" class="home__social-icon">
-                                <i class="uil uil-whatsapp"></i>
+                                <i class="uil uil-github"></i>
                             </a>
 
                             <a href="https://api.whatsapp.com/send?phone=5521993054281&text=Ol%C3%A1" target="_blank" class="home__social-icon">
-                                <i class="uil uil-github"></i>
+                                <i class="uil uil-whatsapp"></i>
                             </a>
                         </div>
 
@@ -134,7 +137,7 @@
                         <div class="about__info">
                             <div>
                                 <span class="about__info-title">01+</span>
-                                <span class="about__info-name">Years <br> experience</span>
+                                <span class="about__info-name">Anos de <br> experiência</span>
                             </div>
 
                             <div>
@@ -142,10 +145,6 @@
                                 <span class="about__info-name">Projetos <br> Completos</span>
                             </div>
 
-                            <div>
-                                <span class="about__info-title">01+</span>
-                                <span class="about__info-name">Empresas  <br> trabalhadas</span>
-                            </div>
                         </div>
 
                         <div class="about__buttons">
@@ -504,12 +503,45 @@
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Caio</h1>
+                        <span class="footer__subtitle">Desenvolvedor Web</span>
+                    </div>
 
-            
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#portfolio" class="footer__links">Portfólio</a>
+                        </li>
+                        <li>
+                            <a href="#contato" class="footer__links">Contato</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/caio-moraes-3a27a2214/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+
+                        <a href="https://github.com/cmoraes5" target="_blank" class="footer__social">
+                            <i class="uil uil-github"></i>
+                        </a>
+
+                        <a href="" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169; CMVS. Todos os direitos reservados</p>
+            </div>
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
-        
+        <a href="#home" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
 
         <!--==================== SWIPER JS ====================-->
         <script src="./assets/js/swiper-bundle.min.js"></script>
