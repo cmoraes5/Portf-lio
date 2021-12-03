@@ -267,7 +267,7 @@
             left: 0;
             top: 0;
             width: 100%;
-            height: 80%;
+            height: 75%;
             position: absolute;
             overflow: hidden;
             background-color: rgba(0, 0, 0, 0.9); 
@@ -454,6 +454,15 @@
 
 
 /*==================== ABOUT ====================*/
+.about__container{
+    display: grid;
+    gap: 1.5rem;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    /* align-items: baseline; */
+    justify-items: center;
+}
+
 .about__img {
     width: 200px;
     border-radius: .5rem;
@@ -921,7 +930,7 @@ box-shadow: 0px 0px 20px #11111155;
         left: 0;
         top: 0;
         width: 100%;
-        height: 80%;
+        height: 75%;
         position: absolute;
         overflow: hidden;
         background-color: rgba(0, 0, 0, 0.9); 
@@ -956,15 +965,6 @@ box-shadow: 0px 0px 20px #11111155;
     .qualification__data{
         gap: .5rem;
     }
-
-    .about__container{
-        display: grid;
-        gap: 1.5rem;
-        align-content: space-evenly;
-        justify-content: space-evenly;
-        align-items: baseline;
-        justify-items: center;
-    }
 }
 
 
@@ -975,7 +975,7 @@ box-shadow: 0px 0px 20px #11111155;
         left: 0;
         top: 0;
         width: 100%;
-        height: 55%;
+        height: 50%;
         position: absolute;
         overflow: hidden;
         background-color: rgba(0, 0, 0, 0.9); 
@@ -1028,7 +1028,7 @@ box-shadow: 0px 0px 20px #11111155;
         left: 0;
         top: 0;
         width: 100%;
-        height: 70%;
+        height: 65%;
         position: absolute;
         overflow: hidden;
         background-color: rgba(0, 0, 0, 0.9); 
@@ -1188,7 +1188,7 @@ box-shadow: 0px 0px 20px #11111155;
         left: 0;
         top: 0;
         width: 100%;
-        height: 100%;
+        height: 95%;
         position: absolute;
         overflow: hidden;
         background-color: rgba(0, 0, 0, 0.9); 
