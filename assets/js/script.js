@@ -1,3 +1,11 @@
+// PRÉ LOADER 
+const overlay = document.querySelector(".overlay");
+
+function onloaded() {
+    overlay.style.display = "none"
+}
+
+
 /*==================== MENU SHOW and HIDDEN ====================*/
 var navMenu = document.getElementById("nav-menu");
 var navToggle = document.getElementById("nav-toggle");
@@ -150,3 +158,11 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+// change bg
+// function cbg(this){
+//     document.getElementById("myAnchor").href = "https://www.w3schools.com";
+//     var Cbg = document.getElementsByClassName('img-wrapper');
+//     Cbg.href = './assets/img/bg-sun.jpg'
+// }
+

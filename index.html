@@ -18,16 +18,15 @@
 
 
 </head>
-<body>
+<body onload="onloaded()">
         <!-- <div class="banner">
 
         </div> -->
     <!--=================== HEADER ===================-->
     <header class="header" id="header">
 
-            <!-- <div class="img-wrapper">
-                <img src="./assets/img/header_background.jpg" alt="">
-            </div> -->
+        
+        
         <nav class="nav container">
             <a href="#" class="nav__logo">CMVS</a>
 
@@ -50,7 +49,7 @@
                     </li>
                     <li class="nav__item">
                         <a href="#qualificações" class="nav__link">
-                            <i class="uil uil-briefcase-alt nav__icon"></i> Qualificações
+                            <i class="uil uil-briefcase-alt nav__icon"></i> Formação
                         </a>
                     </li>
                     <li class="nav__item">
@@ -60,13 +59,13 @@
                     </li>
                     <li class="nav__item">
                         <a href="#contato" class="nav__link">
-                            <i class="uil uil-message nav__icon"></i> Fale Comigo
+                            <i class="uil uil-message nav__icon"></i> Contato
                         </a>
                     </li>
                 </ul>
                 <i class="uil uil-times nav__close" id="nav-close"></i>
             </div>
-
+            
             <div class="nav__btns">
                 <!-- mudar tema button -->
                 <i class="uil uil-moon change-theme" id="theme-button"></i>
@@ -78,12 +77,17 @@
         </nav>
     </header>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <div class="home__content grid">
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+    
+                <!-- <div class="img-wrapper">
+                    <img src="./assets/img/header_background.jpg" alt="">
+                </div> -->
+
+                <div class="home__content grid">
                         <div class="home__social">
                             <a href="https://www.linkedin.com/in/caio-moraes-3a27a2214/" target="_blank" class="home__social-icon">
                                 <i class="uil uil-linkedin"></i>
@@ -99,7 +103,7 @@
                         </div>
 
                         <div class="home__data">
-                            <h1 class="home__title">Oii, Meu nome é Caio</h1>
+                            <h1 class="home__title">Olá, Meu nome é Caio</h1>
                             <h3 class="home__subtitle">Desenvolvedor Front-end</h3>
                             <p class="home__description">Alta experiência em Web Design.</p>
 
@@ -387,13 +391,13 @@
                     <div class="swiper-wrapper">
                         <!--==================== PORTFOLIO 1 ====================-->
                         <div class="portfolio__content grid swiper-slide">
-                            <img src="" alt="" class="portfolio__img">
+                            <img src="./assets/img/Prjt-1.png" alt="" class="portfolio__img">
 
                             <div class="portfolio__data">
-                                <h3 class="portfolio__data">Prjct 1</h3>
-                                <p class="portfolio__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum incidunt</p>
+                                <h3 class="portfolio__data">Card flex</h3>
+                                <p class="portfolio__description">Um projeto de um cartão responsivo</p>
 
-                                <a href="#" class="button button--flex button--small portfolio__button">
+                                <a href="https://cmoraes5.github.io/ResponsiveCard/" class="button button--flex button--small portfolio__button">
                                     Demo
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
@@ -401,13 +405,13 @@
                         </div>
                         <!--==================== PORTFOLIO 2 ====================-->
                         <div class="portfolio__content grid swiper-slide">
-                            <img src="" alt="" class="portfolio__img">
+                            <img src="./assets/img/Prjt-2.png" alt="" class="portfolio__img">
 
                             <div class="portfolio__data">
-                                <h3 class="portfolio__data">Prjct 2</h3>
-                                <p class="portfolio__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum incidunt</p>
+                                <h3 class="portfolio__data">Flex site</h3>
+                                <p class="portfolio__description">Um projeto de site responsivo, onde as imagens se ajustam conforme o tamanho do dispositivo muda, isso tudo sem mediaquery</p>
 
-                                <a href="#" class="button button--flex button--small portfolio__button">
+                                <a href="csssflext.netlify.app" class="button button--flex button--small portfolio__button">
                                     Demo
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
@@ -415,13 +419,13 @@
                         </div>
                         <!--==================== PORTFOLIO 3 ====================-->
                         <div class="portfolio__content grid swiper-slide">
-                            <img src="" alt="" class="portfolio__img">
+                            <img src="./assets/img/Prjt-3.png" alt="" class="portfolio__img">
 
                             <div class="portfolio__data">
-                                <h3 class="portfolio__data">Prjct 2</h3>
-                                <p class="portfolio__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum incidunt</p>
+                                <h3 class="portfolio__data">Calculadora</h3>
+                                <p class="portfolio__description">Neste projeto, quis treinar uma biblioteca JS, glassmorphism e keyfraes também</p>
 
-                                <a href="#" class="button button--flex button--small portfolio__button">
+                                <a href="calculatorcmvs.netlify.app" class="button button--flex button--small portfolio__button">
                                     Demo
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
@@ -545,6 +549,11 @@
 
         <!--==================== SWIPER JS ====================-->
         <script src="./assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== PRÉ-LOADER ====================-->
+        <div class="overlay">
+            <div class="loader"></div>
+        </div>
 
         <!--==================== MAIN JS ====================-->
         <script src="./assets/js/script.js"></script>
