@@ -382,6 +382,7 @@
     grid-template-columns: 5fr 3fr;
     padding-top: 3.5rem;
     align-items: center;
+    text-shadow: 0px 0px 5px #00000066;
 }
 
 .home__social{
