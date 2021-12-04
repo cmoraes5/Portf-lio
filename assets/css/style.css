@@ -624,7 +624,7 @@
 background: linear-gradient(120deg, var(--quali--1), var(--quali--2), var(--quali--3), var(--quali--4), var(--quali--5));
 background-size: 400% 400%; /* Nunca esquecer de por o background size na animação */
 animation: gradient 15s ease infinite;
-box-shadow: 0px 0px 20px #11111155;
+box-shadow: 0px 0px 20px var(--first-color);
 }
 
 @keyframes gradient
