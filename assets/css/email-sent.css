@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800;900&display=swap');
+
+:root{
+    --hue-color: 240;
+
+    --first-color: hsl(var(--hue-color), 69%, 61%);
+    --first-color-second: hsl(var(--hue-color), 69%, 61%);
+    --first-color-alt: hsl(var(--hue-color), 57%, 53%) ;
+    --firstcolor-lighter: hsl(var(--hue-color),10%, 80%);
+    --title-color: hsl(var(--hue-color), 8%, 15%) ;
+    --text-color: hsl(var(--hue-color), 8%, 45%) ;
+    --text-color-light: hsl(var(--hue-color), 8%, 65%) ;
+    --input-color: hsl(var(--hue-color), 70%, 96%) ;
+    --container-color:#fff;
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+    --nav-bg-color: hsl(var(--hue-color), 60%, 99%, 30%);
+    --body-color: hsl(var(--hue-color), 60%, 99%);
+}
+
+*{
+    border: none;
+    padding: 0;
+    left: 0;
+    top: 0;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--body-color);
+    font-family: 'Poppins';
+}
+
+h1{
+    color: var(--title-color);
+}
+
+a{
+    position: absolute;
+    top: 20rem;
+    left: 30em;
+    background: var(--first-color);
+    color: #010101;
+    padding: 1rem 1.5rem;
+    border-radius: 1.3rem;
+    font-size: 1.3rem;
+    box-shadow: 0px 0px 20px var(--first-color);
+}
+
