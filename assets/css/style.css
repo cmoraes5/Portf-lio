@@ -522,6 +522,7 @@ overlay{
     border: none;
     font-weight: var(--font-medium);
     transition: all .3s ease-in-out;
+    cursor: pointer;
 }
 
 .button:hover{

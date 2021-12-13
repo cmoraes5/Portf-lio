@@ -4,7 +4,7 @@ Meu portfólio pessoal
 
 ## Tasks 
 
-O controle de tarefas desse projeto estásendo realizado no GitHub
+O controle de tarefas desse projeto está sendo realizado no GitHub
 
 ## Ícones
 
