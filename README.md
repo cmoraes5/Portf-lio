@@ -15,4 +15,4 @@ O controle de tarefas desse projeto está sendo realizado no GitHub
 
 ## Preview
 
-https://cmoraes5.github.io/Portfolio/
+<a href="https://cmoraes5.github.io/Portfolio/">Ver Portfólio</a>
