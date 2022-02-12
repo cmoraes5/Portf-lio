@@ -6,6 +6,20 @@ function onloaded() {
 }
 
 
+/*==================== Scroll-Reveal ====================*/
+window.sr = ScrollReveal({ reset: true });
+
+sr.reveal('.home__content', {
+    rotate: {x: 0, y: 80, z: 0},
+    duration: 1300 }, { delay: 500 }, 
+);
+sr.reveal('.about__container', { duration: 1300 }, { delay: 500 });
+sr.reveal('.skills__container', { duration: 1300 }), { delay: 500 };
+sr.reveal('.qualification__container', { duration: 1300 }, { delay: 500 });
+sr.reveal('.portfolio__container', { duration: 1300 }, { delay: 500 });
+sr.reveal('.contact__container', { duration: 1300 }, { delay: 500 });
+sr.reveal('.footer__container', { duration: 1300 }, { delay: 500 });
+
 /*==================== MENU SHOW and HIDDEN ====================*/
 var navMenu = document.getElementById("nav-menu");
 var navToggle = document.getElementById("nav-toggle");

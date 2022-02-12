@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,17 +15,21 @@
     <!--=================== SWIPER CSS ===================-->
     <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
 
+    <!--=================== SCROLL-REVEAL ===================-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <!--=================== CSS ===================-->
     <link rel="stylesheet" href="./assets/css/style.css">
 
 
 </head>
+
 <body onload="onloaded()">
     <!--=================== HEADER ===================-->
     <header class="header" id="header">
 
-        
-        
+
+
         <nav class="nav container">
             <a href="#" class="nav__logo">CMVS</a>
 
@@ -41,7 +46,7 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#skills" class="nav__link"> 
+                        <a href="#skills" class="nav__link">
                             <i class="uil uil-file-info-alt nav__icon"></i> Skills
                         </a>
                     </li>
@@ -63,7 +68,7 @@
                 </ul>
                 <i class="uil uil-times nav__close" id="nav-close"></i>
             </div>
-            
+
             <div class="nav__btns">
                 <!-- mudar tema button -->
                 <i class="uil uil-moon change-theme" id="theme-button" onclick="myFunction()"></i>
@@ -85,121 +90,125 @@
                     <!-- <img src="./assets/img/header_background.jpg" alt="" id="img2"> -->
                     <div id="img_bg_header"></div>
                 </div>
-                
+
 
                 <div class="home__content grid">
-                        <div class="home__social">
-                            <a href="https://www.linkedin.com/in/caio-moraes-3a27a2214/" target="_blank" class="home__social-icon">
-                                <i class="uil uil-linkedin"></i>
-                            </a>
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/caio-moraes-3a27a2214/" target="_blank"
+                            class="home__social-icon">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
 
-                            <a href="https://github.com/cmoraes5" target="_blank" class="home__social-icon">
-                                <i class="uil uil-github"></i>
-                            </a>
+                        <a href="https://github.com/cmoraes5" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github"></i>
+                        </a>
 
-                            <a href="https://api.whatsapp.com/send?phone=5521993054281&text=Ol%C3%A1" target="_blank" class="home__social-icon">
-                                <i class="uil uil-whatsapp"></i>
-                            </a>
-                        </div>
-
-                        <div class="home__data">
-                            <h1 class="home__title" id="t1">Olá, Meu nome é Caio</h1>
-                            <h3 class="home__subtitle" id="t2">Desenvolvedor Front-end</h3>
-                            <p class="home__description" id="t3">Experiência em Web Design.</p>
-
-                            <a href="#contato" class="button button--flex">
-                                Fale comigo <i class="uil uil-message button__icon"></i>
-                            </a>
-                        </div>
+                        <a href="https://api.whatsapp.com/send?phone=5521993054281&text=Ol%C3%A1" target="_blank"
+                            class="home__social-icon">
+                            <i class="uil uil-whatsapp"></i>
+                        </a>
                     </div>
 
-                    <div class="home__scroll">
-                        <a href="#sobre" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scroll-name">Descer</span>
+                    <div class="home__data">
+                        <h1 class="home__title" id="t1">Olá, Meu nome é Caio</h1>
+                        <h3 class="home__subtitle" id="t2">Desenvolvedor Front-end</h3>
+                        <p class="home__description" id="t3">Experiência em Web Design.</p>
 
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        <a href="#contato" class="button button--flex">
+                            Fale comigo <i class="uil uil-message button__icon"></i>
                         </a>
                     </div>
                 </div>
-            </section>
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="sobre">
-                <h2 class="section__title">Sobre Mim</h2>
-                <span class="section__subtitle">Um pouco sobre Caio</span>
+                <div class="home__scroll">
+                    <a href="#sobre" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Descer</span>
 
-                <div class="about__container container grid">
-                    <img id="img1" src="./assets/img/0001.png" alt="logodocaio" class="about__img">
-                    <!-- <img src="https://avatars.githubusercontent.com/u/85966695?v=4" alt="" class="about__img"> -->
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-                    <div class="about__data">
-                        <p class="about__description">
-                            Me chamo caio e sempre fui fascinado por tecnologia, me interessei pelo mundo da programação por volta de 2018,
-                            mas comecei a estudar de fato no final de 2020. Atualmente estou cursando Sistemas de Informação no ensino superior
-                            e estudando desenvolvimento Web através do curso ProgramdorBr. 
-                            <br>
-                            Meus hobbies são jogar video-game e ouvir música, gosto muito de assistir futebol.
-                            <br>
-                            E meu grande objetivo é me tornar um Desenvolvedor mobile Sênior.
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="sobre">
+            <h2 class="section__title">Sobre Mim</h2>
+            <span class="section__subtitle">Um pouco sobre Caio</span>
 
-                        </p>
+            <div class="about__container container grid">
+                <img id="img1" src="./assets/img/0001.png" alt="logodocaio" class="about__img">
+                <!-- <img src="https://avatars.githubusercontent.com/u/85966695?v=4" alt="" class="about__img"> -->
 
-                        <div class="about__info">
-                            <div>
-                                <span class="about__info-title">01+</span>
-                                <span class="about__info-name">Anos de <br> experiência</span>
-                            </div>
+                <div class="about__data">
+                    <p class="about__description">
+                        Me chamo caio e sempre fui fascinado por tecnologia, me interessei pelo mundo da programação por
+                        volta de 2018,
+                        mas comecei a estudar de fato no final de 2020. Atualmente estou cursando Sistemas de Informação
+                        no ensino superior
+                        e estudando desenvolvimento Web através do curso ProgramdorBr.
+                        <br>
+                        Meus hobbies são jogar video-game e ouvir música, gosto muito de assistir futebol.
+                        <br>
+                        E meu grande objetivo é me tornar um Desenvolvedor mobile Sênior.
 
-                            <div>
-                                <span class="about__info-title">10+</span>
-                                <span class="about__info-name">Projetos <br> Completos</span>
-                            </div>
+                    </p>
 
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">01+</span>
+                            <span class="about__info-name">Anos de <br> experiência</span>
                         </div>
 
-                        <div class="about__buttons">
-                            <a dowload="" href="./assets/pdf/CV - Caio Moraes (1).pdf" class="button button--flex">
-                                Dowload CV<i class="uil uil-download-alt button__icon"></i>
-                            </a>
+                        <div>
+                            <span class="about__info-title">10+</span>
+                            <span class="about__info-name">Projetos <br> Completos</span>
                         </div>
+
+                    </div>
+
+                    <div class="about__buttons">
+                        <a dowload="" href="./assets/pdf/CV - Caio Moraes (1).pdf" class="button button--flex">
+                            Dowload CV<i class="uil uil-download-alt button__icon"></i>
+                        </a>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
-                <h2 class="section__title">Skills</h2>
-                <span class="section__subtitle">Níveis de Tecnologia</span>
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">Níveis de Tecnologia</span>
 
-                <div class="skills__container container grid">
-                    <div>
-                        <!--==================== SKILLS 1 ====================-->
-                        <div class="skills__content skills__open">
-                            <div class="skills__header">
-                                <i class="uil uil-brackets-curly skills__icon"></i>
+            <div class="skills__container container grid">
+                <div>
+                    <!--==================== SKILLS 1 ====================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
 
-                                <div>
-                                    <h1 class="skills__title">Front-end developer</h1>
-                                    <span class="skills__subtitle">2 anos</span>
-                                </div>
-
-                                <i class="uil uil-angle-down skills__arrow"></i>
+                            <div>
+                                <h1 class="skills__title">Front-end developer</h1>
+                                <span class="skills__subtitle">2 anos</span>
                             </div>
 
-                            <div class="skills__list grid">
-                                <div class="skill__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">HTML</h3>
-                                        <span class="skills__number">80%</span>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skill__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">80%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__porcentagem skills__html"></span>
                                 </div>
                             </div>
 
-                                <div class="skill__data">
-                                    <div class="skills__titles">
+                            <div class="skill__data">
+                                <div class="skills__titles">
                                     <h3 class="skills__name">CSS</h3>
                                     <span class="skills__number">70%</span>
                                 </div>
@@ -208,8 +217,8 @@
                                 </div>
                             </div>
 
-                                <div class="skill__data">
-                                    <div class="skills__titles">
+                            <div class="skill__data">
+                                <div class="skills__titles">
                                     <h3 class="skills__name">JavaScript</h3>
                                     <span class="skills__number">60%</span>
                                 </div>
@@ -218,8 +227,8 @@
                                 </div>
                             </div>
 
-                                <div class="skill__data">
-                                    <div class="skills__titles">
+                            <div class="skill__data">
+                                <div class="skills__titles">
                                     <h3 class="skills__name">React</h3>
                                     <span class="skills__number">20%</span>
                                 </div>
@@ -231,22 +240,22 @@
                     </div>
 
 
-                        <!--==================== SKILLS 2 ====================-->
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-server-network skills__icon"></i>
+                    <!--==================== SKILLS 2 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-server-network skills__icon"></i>
 
-                                <div>
-                                    <h1 class="skills__title">Back-end developer</h1>
-                                    <span class="skills__subtitle">1 ano</span>
-                                </div>
-
-                                <i class="uil uil-angle-down skills__arrow"></i>
+                            <div>
+                                <h1 class="skills__title">Back-end developer</h1>
+                                <span class="skills__subtitle">1 ano</span>
                             </div>
 
-                            <div class="skills__list grid">
-                                <div class="skill__data">
-                                    <div class="skills__titles">
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skill__data">
+                                <div class="skills__titles">
                                     <h3 class="skills__name">SQL</h3>
                                     <span class="skills__number">60%</span>
                                 </div>
@@ -255,8 +264,8 @@
                                 </div>
                             </div>
 
-                                <div class="skill__data">
-                                    <div class="skills__titles">
+                            <div class="skill__data">
+                                <div class="skills__titles">
                                     <h3 class="skills__name">Node</h3>
                                     <span class="skills__number">50%</span>
                                 </div>
@@ -265,7 +274,8 @@
                                 </div>
                             </div>
 
-                                <div class="skill__data"><div class="skills__titles">
+                            <div class="skill__data">
+                                <div class="skills__titles">
                                     <h3 class="skills__name">Firebase</h3>
                                     <span class="skills__number">10%</span>
                                 </div>
@@ -273,384 +283,399 @@
                                     <span class="skills__porcentagem skills__firebase"></span>
                                 </div>
                             </div>
-                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section qualification__section" id="qualificações">
-                <h2 class="section__title">Qualificações</h2>
-                <span class="section__subtitle">Minha jornada pessoal</span>
-
-                <div class="qualification__container container">
-                    <div class="qualification__tabs">
-                        <div class="qualification__button button--flex qualification__active" data-target='#formacoes'>
-                            <i class="uil uil-graduation-cap qualification__icon"></i>
-                            Formações
-                        </div>
-
-                        <div class="qualification__button button--flex" data-target="#cursos">
-                            <i class="uil uil-arrow qualification__icon"></i>
-                            Cursos
-                        </div>
-                    </div>
-
-                    <div class="qualification__sections">
-                                    <!--==================== QUALIFICATION CONTENT 1====================-->
-                            <div class="qualification__content qualification__active" data-content id="formacoes">
-                            <!--==================== QUALIFICATION 1====================-->
-                                <div class="qualification__data">
-                                    <div>
-                                        <h3 class="qualification__title">Ensino médio</h3>
-                                        <span class="qualification__subtitle">Colégio Pedro II</span>
-                                        <div class="qualification__calendar">
-                                            <i class="uil uil-calendar-alt"></i>
-                                            2018 - 2020
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <span class="qualification__rounder"></span>
-                                        <span class="qualification__line"></span>
-                                    </div>
-                                </div>
-
-                            <!--==================== QUALIFICATION 2====================-->
-                                <div class="qualification__data">
-                                    <div></div>
-
-                                    <div>
-                                        <span class="qualification__rounder"></span>
-                                        <!-- <span class="qualification__line"></span> -->
-                                    </div>
-
-                                    <div>
-                                        <h3 class="qualification__title">Sistemas de Informação</h3>
-                                        <span class="qualification__subtitle">Estácio de Sá</span>
-                                        <div class="qualification__calendar">
-                                            <i class="uil uil-calendar-alt"></i>
-                                            2021 - Hoje
-                                        </div>
-                                    </div>
-
-                                    <!-- <div>
-                                        <span class="qualification__rounder"></span>
-                                        <span class="qualification__line"></span>
-                                    </div> -->
-                                </div>
-                        </div>
-                                    <!--==================== QUALIFICATION CONTENT 2====================-->
-                            <div class="qualification__content" data-content id="cursos">
-                            <!--==================== QUALIFICATION 1====================-->
-                                <div class="qualification__data">
-                                    <div>
-                                        <h3 class="qualification__title">Curso Full-Stack</h3>
-                                        <span class="qualification__subtitle">ProgramadorBr</span>
-                                        <div class="qualification__calendar">
-                                            <i class="uil uil-calendar-alt"></i>
-                                            2021 - Hoje
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <span class="qualification__rounder"></span>
-                                        <span class="qualification__line"></span>
-                                    </div>
-                                </div>
-
-                            <!--==================== QUALIFICATION 2====================-->
-                                <div class="qualification__data">
-                                    <div></div>
-
-                                    <div>
-                                        <span class="qualification__rounder"></span>
-                                        <!-- <span class="qualification__line"></span> -->
-                                    </div>
-
-                                    <div>
-                                        <h3 class="qualification__title">Iginite</h3>
-                                        <span class="qualification__subtitle">Rocketseat</span>
-                                        <div class="qualification__calendar">
-                                            <i class="uil uil-calendar-alt"></i>
-                                            2021 - Hoje
-                                        </div>
-                                    </div>
-
-                                    <!-- <div>
-                                        <span class="qualification__rounder"></span>
-                                        <span class="qualification__line"></span>
-                                    </div> -->
-                                </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                <h2 class="section__title">Portfólio</h2>
-                <span class="section__subtitle">Projetos mais recentes</span>
-                
-                
-                <div class="portfolio__container container swiper-container">
-                    <div class="swiper-wrapper">
-                        <!--==================== PORTFOLIO 1 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="./assets/img/Prjt-1.png" alt="" class="portfolio__img">
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__data">Card flex</h3>
-                                <p class="portfolio__description">Um projeto de um cartão responsivo</p>
-
-                                <a href="https://cmoraes5.github.io/ResponsiveCard/" class="button button--flex button--small portfolio__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!--==================== PORTFOLIO 2 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="./assets/img/Prjt-2.png" alt="" class="portfolio__img">
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__data">Flex site</h3>
-                                <p class="portfolio__description">Um projeto de site responsivo, onde as imagens se ajustam conforme o tamanho do dispositivo muda, isso tudo sem mediaquery</p>
-
-                                <a href="https://cmoraes5.github.io/CSS_Flex/" class="button button--flex button--small portfolio__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!--==================== PORTFOLIO 3 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="./assets/img/Prjt-3.png" alt="" class="portfolio__img">
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__data">Calculadora</h3>
-                                <p class="portfolio__description">Neste projeto, quis treinar uma biblioteca JS, glassmorphism e keyfraes também</p>
-
-                                <a href="https://cmoraes5.github.io/Calculator/" class="button button--flex button--small portfolio__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!--==================== PORTFOLIO 4 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="./assets/img/Prjt-4.png" alt="" class="portfolio__img">
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__data">Glowcards</h3>
-                                <p class="portfolio__description">Cartões brilhantes, utiliza glassmorphism</p>
-
-                                <a href="https://cmoraes5.github.io/GlowCard/" class="button button--flex button--small portfolio__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!--==================== PORTFOLIO 5 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="./assets/img/Prjt-5.png" alt="" class="portfolio__img">
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__data">LoginForm</h3>
-                                <p class="portfolio__description">Formulário de login, um dos primeiros projetos que fiz a partir de um tutorial no Youtube</p>
-
-                                <a href="https://cmoraes5.github.io/LoginForm/" class="button button--flex button--small portfolio__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!--==================== PORTFOLIO 6 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="./assets/img/Prjt-6.png" alt="" class="portfolio__img">
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__data">Cubo</h3>
-                                <p class="portfolio__description">Animação em um looping infinito de u cubo andando em  uma estrada</p>
-
-                                <a href="https://cmoraes5.github.io/Cubo-Andante/" class="button button--flex button--small portfolio__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!--==================== PORTFOLIO 7 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="./assets/img/Prjt-7.png" alt="" class="portfolio__img">
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__data">Produtos</h3>
-                                <p class="portfolio__description">Uma página de vendas, onde o produto é um tênis Nike, o cliente pode esolher o modelo e o tamanho</p>
-
-                                <a href="https://cmoraes5.github.io/CardProduct/" class="button button--flex button--small portfolio__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!--==================== PORTFOLIO 8 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="./assets/img/Prjt-8.png" alt="" class="portfolio__img">
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__data">Produtos</h3>
-                                <p class="portfolio__description">Um web app que calcula o quanto de carne, bebida e cerveja serão necessários para um churrasco, 
-                                    baseado na quantidade de pessoas.
-                                </p>
-
-                                <a href="https://cmoraes5.github.io/churrascomtetro/" class="button button--flex button--small portfolio__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                    </div>
-
-                    <div class="swiper-button-prev">
-                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                    </div>
-
-                    <div class="swiper-pagination">
-
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contato">
-                <h2 class="section__title">Fale comigo</h2>
-                <span class="section__subtitle">Entrar em contato</span>
-
-                <div class="contact__container container grid">
-                    <div>
-                        <div class="informacoes__contato">
-                            <i class="uil uil-phone contact__icon"></i>
-                            <div>
-                                <h3 class="contact__title">Ligar</h3>
-                                <span class="contact__subtitle">(21) 99305-4281</span>
-                            </div>
-                        </div>
-
-                        <div class="informacoes__contato">
-                            <i class="uil uil-envelope contact__icon"></i>
-                            <div>
-                                <h3 class="contact__title">Email</h3>
-                                <span class="contact__subtitle">moraescaio0502@gmail.com</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <form action="https://formsubmit.co/moraescaio0502@gmail.com" method="POST" class="contact__form grid">
-
-
-                        <input type="hidden" name="_next" value="https://cmoraes5.github.io/Portfolio/email_enviado.html">
-                        <input type="hidden" name="_autoresponse" value="Recebi sua mensagem, obrigado pelo contato 
-                        e logo responderei!">
-                        
-                        
-
-                        <div class="contact__inputs grid">
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Nome</label>
-                                <input type="text" name="name" class="contact__input">
-                            </div>
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Email</label>
-                                <input type="email" name="email" class="contact__input">
-                            </div>
-                        </div>
-
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Assunto</label>
-                            <input type="text" name="subject" class="contact__input">
-                        </div>
-
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Mensagem</label>
-                            <textarea name="message" id="" cols="0" rows="7" class="contact__input"></textarea>
-                        </div>
-
-                        <div>
-                            <button type="submit" class="button button--flex">
-                                Enviar
-                                <i class="uil uil-message button__icon"></i>
-                            </button>
-                            
-                            
-                        </div>
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            <div class="footer__bg">
-                <div class="footer__container container grid">
-                    <div>
-                        <h1 class="footer__title">Caio</h1>
-                        <span class="footer__subtitle">Desenvolvedor Web</span>
-                    </div>
-
-                    <ul class="footer__links">
-                        <li>
-                            <a href="#portfolio" class="footer__links">Portfólio</a>
-                        </li>
-                        <li>
-                            <a href="#contato" class="footer__links">Contato</a>
-                        </li>
-                    </ul>
-
-                    <div class="footer__socials">
-                        <a href="https://www.linkedin.com/in/caio-moraes-3a27a2214/" target="_blank" class="footer__social">
-                            <i class="uil uil-linkedin"></i>
-                        </a>
-
-                        <a href="https://github.com/cmoraes5" target="_blank" class="footer__social">
-                            <i class="uil uil-github"></i>
-                        </a>
-
-                        <a href="" class="footer__social">
-                            <i class="uil uil-instagram"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <p class="footer__copy">&#169; CMVS. Todos os direitos reservados</p>
             </div>
-        </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        <a href="#home" class="scrollup" id="scroll-up">
-            <i class="uil uil-arrow-up scrollup__icon"></i>
-        </a>
+        </section>
 
-        <!--==================== SWIPER JS ====================-->
-        <script src="./assets/js/swiper-bundle.min.js"></script>
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section qualification__section" id="qualificações">
+            <h2 class="section__title">Qualificações</h2>
+            <span class="section__subtitle">Minha jornada pessoal</span>
 
-        <!--==================== PRÉ-LOADER ====================-->
-        <div class="overlay">
-            <div class="loader"></div>
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target='#formacoes'>
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Formações
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#cursos">
+                        <i class="uil uil-arrow qualification__icon"></i>
+                        Cursos
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <!--==================== QUALIFICATION CONTENT 1====================-->
+                    <div class="qualification__content qualification__active" data-content id="formacoes">
+                        <!--==================== QUALIFICATION 1====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Ensino médio</h3>
+                                <span class="qualification__subtitle">Colégio Pedro II</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2018 - 2020
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 2====================-->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Sistemas de Informação</h3>
+                                <span class="qualification__subtitle">Estácio de Sá</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2021 - Hoje
+                                </div>
+                            </div>
+
+                            <!-- <div>
+                                        <span class="qualification__rounder"></span>
+                                        <span class="qualification__line"></span>
+                                    </div> -->
+                        </div>
+                    </div>
+                    <!--==================== QUALIFICATION CONTENT 2====================-->
+                    <div class="qualification__content" data-content id="cursos">
+                        <!--==================== QUALIFICATION 1====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Curso Full-Stack</h3>
+                                <span class="qualification__subtitle">ProgramadorBr</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2021 - Hoje
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 2====================-->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Iginite</h3>
+                                <span class="qualification__subtitle">Rocketseat</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2021 - Hoje
+                                </div>
+                            </div>
+
+                            <!-- <div>
+                                        <span class="qualification__rounder"></span>
+                                        <span class="qualification__line"></span>
+                                    </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfólio</h2>
+            <span class="section__subtitle">Projetos mais recentes</span>
+
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== PORTFOLIO 1 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./assets/img/Prjt-1.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__data">Card flex</h3>
+                            <p class="portfolio__description">Um projeto de um cartão responsivo</p>
+
+                            <a href="https://cmoraes5.github.io/ResponsiveCard/"
+                                class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 2 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./assets/img/Prjt-2.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__data">Flex site</h3>
+                            <p class="portfolio__description">Um projeto de site responsivo, onde as imagens se ajustam
+                                conforme o tamanho do dispositivo muda, isso tudo sem mediaquery</p>
+
+                            <a href="https://cmoraes5.github.io/CSS_Flex/"
+                                class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 3 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./assets/img/Prjt-3.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__data">Calculadora</h3>
+                            <p class="portfolio__description">Neste projeto, quis treinar uma biblioteca JS,
+                                glassmorphism e keyfraes também</p>
+
+                            <a href="https://cmoraes5.github.io/Calculator/"
+                                class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 4 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./assets/img/Prjt-4.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__data">Glowcards</h3>
+                            <p class="portfolio__description">Cartões brilhantes, utiliza glassmorphism</p>
+
+                            <a href="https://cmoraes5.github.io/GlowCard/"
+                                class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 5 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./assets/img/Prjt-5.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__data">LoginForm</h3>
+                            <p class="portfolio__description">Formulário de login, um dos primeiros projetos que fiz a
+                                partir de um tutorial no Youtube</p>
+
+                            <a href="https://cmoraes5.github.io/LoginForm/"
+                                class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 6 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./assets/img/Prjt-6.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__data">Cubo</h3>
+                            <p class="portfolio__description">Animação em um looping infinito de u cubo andando em uma
+                                estrada</p>
+
+                            <a href="https://cmoraes5.github.io/Cubo-Andante/"
+                                class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 7 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./assets/img/Prjt-7.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__data">Produtos</h3>
+                            <p class="portfolio__description">Uma página de vendas, onde o produto é um tênis Nike, o
+                                cliente pode esolher o modelo e o tamanho</p>
+
+                            <a href="https://cmoraes5.github.io/CardProduct/"
+                                class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 8 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./assets/img/Prjt-8.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__data">Produtos</h3>
+                            <p class="portfolio__description">Um web app que calcula o quanto de carne, bebida e cerveja
+                                serão necessários para um churrasco,
+                                baseado na quantidade de pessoas.
+                            </p>
+
+                            <a href="https://cmoraes5.github.io/churrascomtetro/"
+                                class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <div class="swiper-pagination">
+
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contato">
+            <h2 class="section__title">Fale comigo</h2>
+            <span class="section__subtitle">Entrar em contato</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="informacoes__contato">
+                        <i class="uil uil-phone contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Ligar</h3>
+                            <span class="contact__subtitle">(21) 99305-4281</span>
+                        </div>
+                    </div>
+
+                    <div class="informacoes__contato">
+                        <i class="uil uil-envelope contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">moraescaio0502@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="https://formsubmit.co/moraescaio0502@gmail.com" method="POST" class="contact__form grid">
+
+
+                    <input type="hidden" name="_next" value="https://cmoraes5.github.io/Portfolio/email_enviado.html">
+                    <input type="hidden" name="_autoresponse" value="Recebi sua mensagem, obrigado pelo contato 
+                        e logo responderei!">
+
+
+
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Nome</label>
+                            <input type="text" name="name" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" name="email" class="contact__input">
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Assunto</label>
+                        <input type="text" name="subject" class="contact__input">
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Mensagem</label>
+                        <textarea name="message" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit" class="button button--flex">
+                            Enviar
+                            <i class="uil uil-message button__icon"></i>
+                        </button>
+
+
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Caio</h1>
+                    <span class="footer__subtitle">Desenvolvedor Web</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#portfolio" class="footer__links">Portfólio</a>
+                    </li>
+                    <li>
+                        <a href="#contato" class="footer__links">Contato</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/caio-moraes-3a27a2214/" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+
+                    <a href="https://github.com/cmoraes5" target="_blank" class="footer__social">
+                        <i class="uil uil-github"></i>
+                    </a>
+
+                    <a href="" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; CMVS. Todos os direitos reservados</p>
         </div>
+    </footer>
 
-        <!--==================== MAIN JS ====================-->
-        <script src="./assets/js/script.js"></script>
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#home" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== PRÉ-LOADER ====================-->
+    <div class="overlay">
+        <div class="loader"></div>
+    </div>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
